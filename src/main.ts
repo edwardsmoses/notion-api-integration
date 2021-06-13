@@ -1,6 +1,7 @@
 import './style.css';
 
 const api = import.meta.env.VITE_API_KEY;
+const databaseId = import.meta.env.VITE_DATABASE_ID;
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 console.log(api);
